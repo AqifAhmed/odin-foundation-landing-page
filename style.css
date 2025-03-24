@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
-    font-family: sans-serif;
+    font-family: Roboto;
+    margin: 0;
 }
 
 .header{
@@ -38,7 +41,8 @@ ul{
 button{
     background-color: #3882F6;
     color: #E5E7EB;
-
+    border-radius: 5px;
+    font-weight: ;
 
 }
 
@@ -60,6 +64,7 @@ button{
     border: 2px solid #3882F6;
     width: 256px;
     height: 128px;
+    border-radius: 5px;
     
 }
 .sub-box{
@@ -69,4 +74,19 @@ button{
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.header,.sec-1,.sec-2,.sec-3,.sec-4,footer{
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+footer{
+    height: 48px;
+    margin-top: auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
