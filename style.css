@@ -40,11 +40,16 @@ ul{
 }
 
 button{
-    background-color: #3882F6;
-    color: #E5E7EB;
-    border-radius: 5px;
-    font-weight: bolder;
-    size: 16px;
+    width: 130px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  background: #3882f6;
+  transition: all 0.5s ease;
+  cursor: pointer;
 
 }
 
